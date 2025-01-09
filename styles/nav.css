@@ -1,0 +1,15 @@
+nav > ul {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+nav li{
+    list-style: none;
+    padding: 5px;
+}
+nav li a {
+    text-decoration: none;
+}
+nav li:hover{
+    background-color: lightgray;
+}
