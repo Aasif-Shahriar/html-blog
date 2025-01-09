@@ -13,3 +13,15 @@ nav li a {
 nav li:hover{
     background-color: lightgray;
 }
+
+/* nested menu style */
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background: lightgoldenrodyellow;
+    padding: 10px;
+    z-index: 1;
+}
+nav li:hover > .dropdown{
+    display: block;
+}
